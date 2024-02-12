@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>POST posts</name>
+   <name>POST Posts2</name>
    <tag></tag>
-   <elementGuidId>0cadf1a4-12e2-4cf3-a1d9-212539a4e560</elementGuidId>
+   <elementGuidId>b1524649-6ed3-448e-b0c7-e23411121a8d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
@@ -21,8 +21,16 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
+      <value>charset=UTF-8</value>
+      <webElementGuid>a5cce3d2-af65-491f-9f88-3c25f63b18eb</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>551c15b6-87ab-4f1a-8501-f3944385f0bf</webElementGuid>
+      <webElementGuid>722d3620-e8de-45c6-ab2d-ee8c6f80e89f</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.3.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
@@ -38,23 +46,23 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'foo'</defaultValue>
+      <defaultValue>'hana'</defaultValue>
       <description></description>
-      <id>a7c63250-b91c-43c4-9c45-a5b56ba79252</id>
+      <id>18d0d1d4-9faa-41e4-b81e-c406bb43cb9b</id>
       <masked>false</masked>
       <name>title</name>
    </variables>
    <variables>
-      <defaultValue>'bar'</defaultValue>
+      <defaultValue>'maria\r\n'</defaultValue>
       <description></description>
-      <id>0bbaca60-0fed-49f4-b0ee-dd7842f80941</id>
+      <id>5e67e599-2812-4b78-b0e5-01775a36fc83</id>
       <masked>false</masked>
       <name>body</name>
    </variables>
    <variables>
-      <defaultValue>1</defaultValue>
+      <defaultValue>3</defaultValue>
       <description></description>
-      <id>99893bce-7580-418a-87ec-805fad2e9452</id>
+      <id>82ab8781-9622-4cee-a00a-3a1b10efc89f</id>
       <masked>false</masked>
       <name>userId</name>
    </variables>
@@ -70,7 +78,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
