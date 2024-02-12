@@ -25,16 +25,6 @@
             <runConfigurationId>Web Service</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/GET Posts</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Service</groupName>
-            <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Web Service</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/POSTS Posts</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

@@ -7,7 +7,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -21,11 +21,11 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>text/plain</value>
+      <value>application/json</value>
       <webElementGuid>88a714a3-e15a-4d99-b428-41c32d021347</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.3.0</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
    <restUrl>${GlobalVariable.baseURL}/posts/2</restUrl>
@@ -35,7 +35,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>2</defaultValue>
