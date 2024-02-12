@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+POSTS Posts,,,,12-02-2024 15:41:19,12-02-2024 15:41:30,10.956s,PASSED
+,,,,,,,
+Test Cases/POST posts,,,,12-02-2024 15:41:19,12-02-2024 15:41:26,7.012s,PASSED
+"response = sendRequestAndVerify(findTestObject(""POST posts""))",,,,12-02-2024 15:41:20,12-02-2024 15:41:24,4.299s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""foo"")",,,,12-02-2024 15:41:24,12-02-2024 15:41:24,0.114s,PASSED
+Video,,,,12-02-2024 15:41:26,12-02-2024 15:41:26,0.002s,PASSED
+,,,,,,,
+Test Cases/POST Posts2,,,,12-02-2024 15:41:26,12-02-2024 15:41:30,3.679s,PASSED
+"sendRequestAndVerify(findTestObject(""POST Posts2"", [""title"":""hana"", ""body"":""maria
+"", ""userId"":3]))",,,,12-02-2024 15:41:26,12-02-2024 15:41:28,1.532s,PASSED
+Video,,,,12-02-2024 15:41:30,12-02-2024 15:41:30,0.001s,PASSED

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PUT Posts,,,,12-02-2024 15:41:36,12-02-2024 15:41:46,10.104s,PASSED
+,,,,,,,
+Test Cases/PUT Posts Id1,,,,12-02-2024 15:41:37,12-02-2024 15:41:43,6.414s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts Id1""))",,,,12-02-2024 15:41:37,12-02-2024 15:41:41,3.842s,PASSED
+Video,,,,12-02-2024 15:41:43,12-02-2024 15:41:43,0.002s,PASSED
+,,,,,,,
+Test Cases/PUT Posts Id2,,,,12-02-2024 15:41:43,12-02-2024 15:41:46,3.460s,PASSED
+"sendRequestAndVerify(findTestObject(""PUT Posts Id2"", [""id"":2, ""title"":""foo"", ""body"":""bar"", ""userId"":2]))",,,,12-02-2024 15:41:43,12-02-2024 15:41:44,1.339s,PASSED
+Video,,,,12-02-2024 15:41:46,12-02-2024 15:41:46,0.001s,PASSED
