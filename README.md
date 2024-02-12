@@ -1,7 +1,5 @@
 # 345937-katalon-taskapi-HanaMariaSiahaan
 
-# 345937-katalon-taskapi-HanaMariaSiahaan
-
 Link drive DEMO Task API : https://drive.google.com/drive/folders/1DlkF88Nt8S5UCHycHo81NSMCqAA6WNy5?usp=sharing
 
 Create API Test Automation pada: http://jsonplaceholder.typicode.com/ 
