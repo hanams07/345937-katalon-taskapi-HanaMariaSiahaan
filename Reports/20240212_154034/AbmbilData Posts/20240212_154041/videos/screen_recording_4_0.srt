@@ -1,0 +1,16 @@
+1
+00:00:00,056 --> 00:00:00,384
+1. response = sendRequestAndVerify(findTestObject("GET Posts"))
+
+2
+00:00:00,385 --> 00:00:00,386
+1. request = getInstance().getCurrentRequest()
+
+3
+00:00:00,386 --> 00:00:00,390
+5. response = getInstance().getCurrentResponse()
+
+4
+00:00:00,391 --> 00:00:00,461
+5. verifyElementPropertyValue(response, "[0].title", "sunt aut facere repellat provident occaecati excepturi optio reprehenderit")
+

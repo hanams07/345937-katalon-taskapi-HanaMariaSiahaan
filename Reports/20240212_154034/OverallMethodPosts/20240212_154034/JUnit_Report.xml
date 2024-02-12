@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OverallMethodPosts" time="92.999" tests="10" failures="0" errors="0">
+   <testsuite name="DELETE Posts" tests="2" failures="0" errors="0" time="14.043" skipped="0" timestamp="12-02-2024T15:40:54" hostname="USER - DESKTOP-57TUAMP.mshome.net" id="Test Suites/DELETE Posts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BRI\\BOOTCAMP\\345937-katalon-taskapi-HanaMariaSiahaan\\Reports\\20240212_154034\\DELETE Posts\\20240212_154035"/>
+         <property name="logFiles" value="D:\\BRI\\BOOTCAMP\\345937-katalon-taskapi-HanaMariaSiahaan\\Reports\\20240212_154034\\DELETE Posts\\20240212_154035\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-57TUAMP.mshome.net"/>
+         <property name="hostAddress" value="172.29.144.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/DELETE Posts" time="9.802" classname="Test Cases/DELETE Posts" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:40:54 - [TEST_CASE][PASSED] - Test Cases/DELETE Posts: Test Cases/DELETE Posts
+
+12-02-2024T15:40:55 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("DELETE Posts")): Send request and verify the response successfully
+
+12-02-2024T15:41:01 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_154034\DELETE Posts\20240212_154035\requests\main\0.har
+
+12-02-2024T15:41:01 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:41:01 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:41:01 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:41:01 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:41:02 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:41:02 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:41:04 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/DELETE Posts' .
+
+12-02-2024T15:41:04 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/DELETE Posts' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DELETE Posts2" time="3.876" classname="Test Cases/DELETE Posts2" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:41:04 - [TEST_CASE][PASSED] - Test Cases/DELETE Posts2: Test Cases/DELETE Posts2
+
+12-02-2024T15:41:04 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("DELETE Posts2")): Send request and verify the response successfully
+
+12-02-2024T15:41:05 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_154034\DELETE Posts\20240212_154035\requests\main\1.har
+
+12-02-2024T15:41:05 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:41:05 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:41:05 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:41:05 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:41:05 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:41:05 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:41:08 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/DELETE Posts2' .
+
+12-02-2024T15:41:08 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/DELETE Posts2' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T15:40:54 - [TEST_SUITE][PASSED] - DELETE Posts: Test Cases/DELETE Posts2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="POSTS Posts" tests="2" failures="0" errors="0" time="10.956" skipped="0" timestamp="12-02-2024T15:41:19" hostname="USER - DESKTOP-57TUAMP.mshome.net" id="Test Suites/POSTS Posts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BRI\\BOOTCAMP\\345937-katalon-taskapi-HanaMariaSiahaan\\Reports\\20240212_154034\\POSTS Posts\\20240212_154037"/>
+         <property name="logFiles" value="D:\\BRI\\BOOTCAMP\\345937-katalon-taskapi-HanaMariaSiahaan\\Reports\\20240212_154034\\POSTS Posts\\20240212_154037\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-57TUAMP.mshome.net"/>
+         <property name="hostAddress" value="172.29.144.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/POST posts" time="7.012" classname="Test Cases/POST posts" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:41:19 - [TEST_CASE][PASSED] - Test Cases/POST posts: Test Cases/POST posts
+
+12-02-2024T15:41:20 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("POST posts")): Send request and verify the response successfully
+
+12-02-2024T15:41:23 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_154034\POSTS Posts\20240212_154037\requests\main\0.har
+
+12-02-2024T15:41:24 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:41:24 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:41:24 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:41:24 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:41:24 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:41:24 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:41:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "foo"): Verify element property value successfully
+
+12-02-2024T15:41:24 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:41:26 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/POST posts' .
+
+12-02-2024T15:41:26 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/POST posts' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/POST Posts2" time="3.679" classname="Test Cases/POST Posts2" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:41:26 - [TEST_CASE][PASSED] - Test Cases/POST Posts2: Test Cases/POST Posts2
+
+12-02-2024T15:41:26 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("POST Posts2", ["title":"hana", "body":"maria
+", "userId":3])): Send request and verify the response successfully
+
+12-02-2024T15:41:28 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_154034\POSTS Posts\20240212_154037\requests\main\1.har
+
+12-02-2024T15:41:28 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:41:28 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:41:28 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:41:28 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:41:28 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:41:28 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:41:30 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/POST Posts2' .
+
+12-02-2024T15:41:30 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/POST Posts2' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T15:41:19 - [TEST_SUITE][PASSED] - POSTS Posts: Test Cases/POST Posts2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="PUT Posts" tests="2" failures="0" errors="0" time="10.104" skipped="0" timestamp="12-02-2024T15:41:36" hostname="USER - DESKTOP-57TUAMP.mshome.net" id="Test Suites/PUT Posts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BRI\\BOOTCAMP\\345937-katalon-taskapi-HanaMariaSiahaan\\Reports\\20240212_154034\\PUT Posts\\20240212_154039"/>
+         <property name="logFiles" value="D:\\BRI\\BOOTCAMP\\345937-katalon-taskapi-HanaMariaSiahaan\\Reports\\20240212_154034\\PUT Posts\\20240212_154039\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-57TUAMP.mshome.net"/>
+         <property name="hostAddress" value="172.29.144.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/PUT Posts Id1" time="6.414" classname="Test Cases/PUT Posts Id1" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:41:37 - [TEST_CASE][PASSED] - Test Cases/PUT Posts Id1: Test Cases/PUT Posts Id1
+
+12-02-2024T15:41:37 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("GET Posts Id1")): Send request and verify the response successfully
+
+12-02-2024T15:41:40 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_154034\PUT Posts\20240212_154039\requests\main\0.har
+
+12-02-2024T15:41:41 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:41:41 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:41:41 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:41:41 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:41:41 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:41:41 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:41:43 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/PUT Posts Id1' .
+
+12-02-2024T15:41:43 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/PUT Posts Id1' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PUT Posts Id2" time="3.46" classname="Test Cases/PUT Posts Id2" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:41:43 - [TEST_CASE][PASSED] - Test Cases/PUT Posts Id2: Test Cases/PUT Posts Id2
+
+12-02-2024T15:41:43 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("PUT Posts Id2", ["id":2, "title":"foo", "body":"bar", "userId":2])): Send request and verify the response successfully
+
+12-02-2024T15:41:44 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_154034\PUT Posts\20240212_154039\requests\main\1.har
+
+12-02-2024T15:41:44 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:41:44 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:41:44 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:41:44 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:41:44 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:41:44 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:41:46 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/PUT Posts Id2' .
+
+12-02-2024T15:41:46 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/PUT Posts Id2' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T15:41:36 - [TEST_SUITE][PASSED] - PUT Posts: Test Cases/PUT Posts Id2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="AbmbilData Posts" tests="4" failures="0" errors="0" time="14.186" skipped="0" timestamp="12-02-2024T15:42:01" hostname="USER - DESKTOP-57TUAMP.mshome.net" id="Test Suites/AbmbilData Posts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BRI\\BOOTCAMP\\345937-katalon-taskapi-HanaMariaSiahaan\\Reports\\20240212_154034\\AbmbilData Posts\\20240212_154041"/>
+         <property name="logFiles" value="D:\\BRI\\BOOTCAMP\\345937-katalon-taskapi-HanaMariaSiahaan\\Reports\\20240212_154034\\AbmbilData Posts\\20240212_154041\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-57TUAMP.mshome.net"/>
+         <property name="hostAddress" value="172.29.144.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/GET Posts Comments" time="6.22" classname="Test Cases/GET Posts Comments" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:42:01 - [TEST_CASE][PASSED] - Test Cases/GET Posts Comments: Test Cases/GET Posts Comments
+
+12-02-2024T15:42:02 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("GET Posts Comments")): Send request and verify the response successfully
+
+12-02-2024T15:42:05 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_154034\AbmbilData Posts\20240212_154041\requests\main\0.har
+
+12-02-2024T15:42:05 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:42:05 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:42:05 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:42:05 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:42:05 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:42:05 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:42:07 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/GET Posts Comments' .
+
+12-02-2024T15:42:07 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/GET Posts Comments' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GET Posts Id" time="2.767" classname="Test Cases/GET Posts Id" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:42:07 - [TEST_CASE][PASSED] - Test Cases/GET Posts Id: Test Cases/GET Posts Id
+
+12-02-2024T15:42:07 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET Posts Id")): Send request and verify the response successfully
+
+12-02-2024T15:42:08 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_154034\AbmbilData Posts\20240212_154041\requests\main\1.har
+
+12-02-2024T15:42:08 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:42:08 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:42:08 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:42:08 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:42:08 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:42:08 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:42:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "title", "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"): Verify element property value successfully
+
+12-02-2024T15:42:08 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:42:10 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/GET Posts Id' .
+
+12-02-2024T15:42:10 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/GET Posts Id' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GET Posts Id1" time="2.394" classname="Test Cases/GET Posts Id1" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:42:10 - [TEST_CASE][PASSED] - Test Cases/GET Posts Id1: Test Cases/GET Posts Id1
+
+12-02-2024T15:42:10 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("GET Posts Id1")): Send request and verify the response successfully
+
+12-02-2024T15:42:10 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_154034\AbmbilData Posts\20240212_154041\requests\main\2.har
+
+12-02-2024T15:42:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:42:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:42:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:42:10 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:42:10 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:42:10 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:42:12 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/GET Posts Id1' .
+
+12-02-2024T15:42:12 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/GET Posts Id1' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GET Posts" time="2.532" classname="Test Cases/GET Posts" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:42:12 - [TEST_CASE][PASSED] - Test Cases/GET Posts: Test Cases/GET Posts
+
+12-02-2024T15:42:12 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET Posts")): Send request and verify the response successfully
+
+12-02-2024T15:42:13 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_154034\AbmbilData Posts\20240212_154041\requests\main\3.har
+
+12-02-2024T15:42:13 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:42:13 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:42:13 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:42:13 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:42:13 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:42:13 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:42:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "[0].title", "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"): Verify element property value successfully
+
+12-02-2024T15:42:13 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-02-2024T15:42:15 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/GET Posts' .
+
+12-02-2024T15:42:15 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/GET Posts' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T15:42:01 - [TEST_SUITE][PASSED] - AbmbilData Posts: Test Cases/GET Posts]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

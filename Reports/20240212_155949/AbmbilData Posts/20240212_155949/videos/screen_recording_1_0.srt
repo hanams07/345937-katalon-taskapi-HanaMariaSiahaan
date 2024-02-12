@@ -1,0 +1,12 @@
+1
+00:00:00,432 --> 00:00:06,548
+1. sendRequestAndVerify(findTestObject("GET Posts Comments"))
+
+2
+00:00:06,557 --> 00:00:06,560
+1. request = getInstance().getCurrentRequest()
+
+3
+00:00:06,561 --> 00:00:06,859
+5. response = getInstance().getCurrentResponse()
+
