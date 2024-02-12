@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>PUT Posts Id1</name>
+   <name>PUT Posts Id2</name>
    <tag></tag>
-   <elementGuidId>0c7e344e-9abd-4225-a530-03e36f32284b</elementGuidId>
+   <elementGuidId>b4cc3b90-4825-4ca0-9fcc-fbd1cadf7b81</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{\n  \t\&quot;id\&quot; : \&quot;${id}\&quot;,\n  \t\&quot;title\&quot;: \&quot;${title}\&quot;,\n    \&quot;body\&quot;: \&quot;${body}\&quot;,\n  \t\&quot;userId\&quot; : ${userId}\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
@@ -21,47 +21,47 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>c0bf7161-1e42-46a9-a748-a4564bf45fad</webElementGuid>
+      <value>text/plain</value>
+      <webElementGuid>88a714a3-e15a-4d99-b428-41c32d021347</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.3.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/posts/1</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/posts/2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'foo'</defaultValue>
+      <defaultValue>2</defaultValue>
       <description></description>
-      <id>22edc6df-8719-43b5-a009-ac6a374376a2</id>
-      <masked>false</masked>
-      <name>title</name>
-   </variables>
-   <variables>
-      <defaultValue>1</defaultValue>
-      <description></description>
-      <id>708d2323-af4b-42df-9093-aa43b728fd70</id>
+      <id>877f52e0-33f4-4ac7-b4d7-fbc639b02d53</id>
       <masked>false</masked>
       <name>id</name>
    </variables>
    <variables>
+      <defaultValue>'foo'</defaultValue>
+      <description></description>
+      <id>3d484274-d763-44e1-8eac-29c2d68df9e0</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variables>
+   <variables>
       <defaultValue>'bar'</defaultValue>
       <description></description>
-      <id>4b0b7930-73bc-42b7-a154-0421cefcab78</id>
+      <id>66f1eddc-4f45-4138-a0c4-6db7efb7b5ec</id>
       <masked>false</masked>
       <name>body</name>
    </variables>
    <variables>
-      <defaultValue>1</defaultValue>
+      <defaultValue>2</defaultValue>
       <description></description>
-      <id>7649a91a-e923-4062-be71-ef1dc1b42817</id>
+      <id>196d7438-5fa8-4c4e-8eca-76f90aace796</id>
       <masked>false</masked>
       <name>userId</name>
    </variables>
