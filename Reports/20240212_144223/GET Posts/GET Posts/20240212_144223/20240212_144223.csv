@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GET Posts,,,,12-02-2024 14:42:28,12-02-2024 14:42:42,13.592s,PASSED
+,,,,,,,
+Test Cases/GET Posts Comments,,,,12-02-2024 14:42:28,12-02-2024 14:42:34,5.978s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts Comments""))",,,,12-02-2024 14:42:29,12-02-2024 14:42:32,3.384s,PASSED
+Video,,,,12-02-2024 14:42:34,12-02-2024 14:42:34,0.001s,PASSED
+,,,,,,,
+Test Cases/GET Posts Id,,,,12-02-2024 14:42:34,12-02-2024 14:42:37,2.570s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts Id""))",,,,12-02-2024 14:42:34,12-02-2024 14:42:35,0.457s,PASSED
+Video,,,,12-02-2024 14:42:37,12-02-2024 14:42:37,0.001s,PASSED
+,,,,,,,
+Test Cases/GET Posts Id1,,,,12-02-2024 14:42:37,12-02-2024 14:42:39,2.401s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts Id1""))",,,,12-02-2024 14:42:37,12-02-2024 14:42:37,0.299s,PASSED
+Video,,,,12-02-2024 14:42:39,12-02-2024 14:42:39,0.001s,PASSED
+,,,,,,,
+Test Cases/GET Posts,,,,12-02-2024 14:42:39,12-02-2024 14:42:42,2.369s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts""))",,,,12-02-2024 14:42:39,12-02-2024 14:42:40,0.278s,PASSED
+Video,,,,12-02-2024 14:42:42,12-02-2024 14:42:42,0.000s,PASSED

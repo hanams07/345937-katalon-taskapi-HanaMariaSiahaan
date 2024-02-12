@@ -1,0 +1,12 @@
+1
+00:00:00,056 --> 00:00:00,509
+1. sendRequestAndVerify(findTestObject("GET Posts Id"))
+
+2
+00:00:00,511 --> 00:00:00,514
+1. request = getInstance().getCurrentRequest()
+
+3
+00:00:00,514 --> 00:00:00,530
+5. response = getInstance().getCurrentResponse()
+

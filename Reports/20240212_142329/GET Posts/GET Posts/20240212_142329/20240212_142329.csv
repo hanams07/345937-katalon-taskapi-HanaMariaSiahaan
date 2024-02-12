@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GET Posts,,,,12-02-2024 14:23:34,12-02-2024 14:23:39,5.072s,ERROR
+,,,,,,,
+Test Cases/GET Posts Comments,,,,12-02-2024 14:23:35,12-02-2024 14:23:35,0.007s,ERROR
+,,,,,,,
+Test Cases/GET Posts Id,,,,12-02-2024 14:23:35,12-02-2024 14:23:35,0.004s,ERROR
+,,,,,,,
+Test Cases/GET Posts Id1,,,,12-02-2024 14:23:35,12-02-2024 14:23:38,3.778s,PASSED
+"sendRequestAndVerify(findTestObject(""DELETE Posts""))",,,,12-02-2024 14:23:35,12-02-2024 14:23:38,3.346s,PASSED
+,,,,,,,
+Test Cases/GET Posts,,,,12-02-2024 14:23:39,12-02-2024 14:23:39,0.036s,FAILED
+acceptAlert(),,,,12-02-2024 14:23:39,12-02-2024 14:23:39,0.018s,FAILED

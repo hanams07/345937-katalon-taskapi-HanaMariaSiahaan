@@ -17,5 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequestAndVerify(findTestObject('GET Posts Id'))
+response = WS.sendRequestAndVerify(findTestObject('GET Posts Id'))
+
+WS.verifyElementPropertyValue(response, 'title', "sunt aut facere repellat provident occaecati excepturi optio reprehenderit")
+
 

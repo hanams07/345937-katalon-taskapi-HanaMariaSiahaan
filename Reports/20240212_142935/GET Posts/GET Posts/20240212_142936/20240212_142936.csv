@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GET Posts,,,,12-02-2024 14:29:41,12-02-2024 14:29:46,4.961s,PASSED
+,,,,,,,
+Test Cases/GET Posts Comments,,,,12-02-2024 14:29:41,12-02-2024 14:29:44,3.341s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts Comments""))",,,,12-02-2024 14:29:41,12-02-2024 14:29:44,3.008s,PASSED
+,,,,,,,
+Test Cases/GET Posts Id,,,,12-02-2024 14:29:44,12-02-2024 14:29:45,0.491s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts Id""))",,,,12-02-2024 14:29:44,12-02-2024 14:29:45,0.377s,PASSED
+,,,,,,,
+Test Cases/GET Posts Id1,,,,12-02-2024 14:29:45,12-02-2024 14:29:45,0.547s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts Id1""))",,,,12-02-2024 14:29:45,12-02-2024 14:29:45,0.419s,PASSED
+,,,,,,,
+Test Cases/GET Posts,,,,12-02-2024 14:29:45,12-02-2024 14:29:46,0.343s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts""))",,,,12-02-2024 14:29:45,12-02-2024 14:29:46,0.251s,PASSED
