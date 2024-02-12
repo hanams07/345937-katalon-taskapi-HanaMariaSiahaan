@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PUT Posts,,,,12-02-2024 14:59:35,12-02-2024 14:59:41,6.150s,PASSED
+,,,,,,,
+Test Cases/PUT Posts Id1,,,,12-02-2024 14:59:35,12-02-2024 14:59:41,5.898s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts Id1""))",,,,12-02-2024 14:59:36,12-02-2024 14:59:39,3.211s,PASSED
+Video,,,,12-02-2024 14:59:41,12-02-2024 14:59:41,0.001s,PASSED

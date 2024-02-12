@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DELETE Posts,,,,12-02-2024 15:00:17,12-02-2024 15:00:24,6.306s,PASSED
+,,,,,,,
+Test Cases/DELETE Posts,,,,12-02-2024 15:00:17,12-02-2024 15:00:24,6.084s,PASSED
+"sendRequestAndVerify(findTestObject(""DELETE Posts""))",,,,12-02-2024 15:00:18,12-02-2024 15:00:21,3.526s,PASSED
+Video,,,,12-02-2024 15:00:24,12-02-2024 15:00:24,0.001s,PASSED
