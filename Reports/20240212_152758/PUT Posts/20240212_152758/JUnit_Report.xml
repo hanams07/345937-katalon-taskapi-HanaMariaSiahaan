@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PUT Posts" time="10.533" tests="2" failures="0" errors="0">
+   <testsuite name="PUT Posts" tests="2" failures="0" errors="0" time="10.533" skipped="0" timestamp="12-02-2024T15:28:04" hostname="USER - DESKTOP-57TUAMP.mshome.net" id="Test Suites/PUT Posts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BRI\\BOOTCAMP\\345937-katalon-taskapi-HanaMariaSiahaan\\Reports\\20240212_152758\\PUT Posts\\20240212_152758"/>
+         <property name="logFiles" value="D:\\BRI\\BOOTCAMP\\345937-katalon-taskapi-HanaMariaSiahaan\\Reports\\20240212_152758\\PUT Posts\\20240212_152758\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-57TUAMP.mshome.net"/>
+         <property name="hostAddress" value="172.29.144.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/PUT Posts Id1" time="6.853" classname="Test Cases/PUT Posts Id1" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:28:05 - [TEST_CASE][PASSED] - Test Cases/PUT Posts Id1: Test Cases/PUT Posts Id1
+
+12-02-2024T15:28:05 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("GET Posts Id1")): Send request and verify the response successfully
+
+12-02-2024T15:28:09 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_152758\PUT Posts\20240212_152758\requests\main\0.har
+
+12-02-2024T15:28:09 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:28:09 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:28:09 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:28:09 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:28:10 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:28:10 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:28:12 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/PUT Posts Id1' .
+
+12-02-2024T15:28:12 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/PUT Posts Id1' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PUT Posts Id2" time="3.371" classname="Test Cases/PUT Posts Id2" status="PASSED">
+         <system-out><![CDATA[12-02-2024T15:28:12 - [TEST_CASE][PASSED] - Test Cases/PUT Posts Id2: Test Cases/PUT Posts Id2
+
+12-02-2024T15:28:12 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("PUT Posts Id2", ["id":2, "title":"foo", "body":"bar", "userId":2])): Send request and verify the response successfully
+
+12-02-2024T15:28:13 - [MESSAGE][INFO] - HAR: D:\BRI\BOOTCAMP\345937-katalon-taskapi-HanaMariaSiahaan\Reports\20240212_152758\PUT Posts\20240212_152758\requests\main\1.har
+
+12-02-2024T15:28:13 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T15:28:13 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T15:28:13 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T15:28:13 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T15:28:13 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T15:28:13 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T15:28:15 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/PUT Posts Id2' .
+
+12-02-2024T15:28:15 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/PUT Posts Id2' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T15:28:04 - [TEST_SUITE][PASSED] - PUT Posts: Test Cases/PUT Posts Id2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

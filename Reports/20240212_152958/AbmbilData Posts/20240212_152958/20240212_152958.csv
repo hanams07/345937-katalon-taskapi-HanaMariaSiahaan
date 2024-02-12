@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AbmbilData Posts,,,,12-02-2024 15:30:04,12-02-2024 15:30:18,14.242s,PASSED
+,,,,,,,
+Test Cases/GET Posts Comments,,,,12-02-2024 15:30:04,12-02-2024 15:30:10,6.146s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts Comments""))",,,,12-02-2024 15:30:04,12-02-2024 15:30:08,3.556s,PASSED
+Video,,,,12-02-2024 15:30:10,12-02-2024 15:30:10,0.001s,PASSED
+,,,,,,,
+Test Cases/GET Posts Id,,,,12-02-2024 15:30:10,12-02-2024 15:30:13,2.784s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GET Posts Id""))",,,,12-02-2024 15:30:10,12-02-2024 15:30:11,0.563s,PASSED
+"verifyElementPropertyValue(response, ""title"", ""sunt aut facere repellat provident occaecati excepturi optio reprehenderit"")",,,,12-02-2024 15:30:11,12-02-2024 15:30:11,0.087s,PASSED
+Video,,,,12-02-2024 15:30:13,12-02-2024 15:30:13,0.001s,PASSED
+,,,,,,,
+Test Cases/GET Posts Id1,,,,12-02-2024 15:30:13,12-02-2024 15:30:15,2.552s,PASSED
+"sendRequestAndVerify(findTestObject(""GET Posts Id1""))",,,,12-02-2024 15:30:13,12-02-2024 15:30:13,0.455s,PASSED
+Video,,,,12-02-2024 15:30:15,12-02-2024 15:30:15,0.001s,PASSED
+,,,,,,,
+Test Cases/GET Posts,,,,12-02-2024 15:30:15,12-02-2024 15:30:18,2.462s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GET Posts""))",,,,12-02-2024 15:30:15,12-02-2024 15:30:16,0.270s,PASSED
+"verifyElementPropertyValue(response, ""[0].title"", ""sunt aut facere repellat provident occaecati excepturi optio reprehenderit"")",,,,12-02-2024 15:30:16,12-02-2024 15:30:16,0.112s,PASSED
+Video,,,,12-02-2024 15:30:18,12-02-2024 15:30:18,0.001s,PASSED

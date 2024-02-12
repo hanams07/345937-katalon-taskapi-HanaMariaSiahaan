@@ -1,0 +1,12 @@
+1
+00:00:00,064 --> 00:00:01,264
+1. sendRequestAndVerify(findTestObject("PUT Posts Id2", ["id":2, "title":"foo", "body":"bar", "userId":2]))
+
+2
+00:00:01,265 --> 00:00:01,267
+1. request = getInstance().getCurrentRequest()
+
+3
+00:00:01,268 --> 00:00:01,279
+5. response = getInstance().getCurrentResponse()
+
